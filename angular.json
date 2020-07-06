@@ -58,7 +58,7 @@
               ]
             }
           }
-        },
+        }, 
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angularpractica"
+    }
+  },
+  "defaultProject": "angularpractica",
+  "cli": {
+    "analytics": "bc5cc38b-3e47-484c-ab01-3a5a1c04a046"
+  }
 }
